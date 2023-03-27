@@ -1,0 +1,38 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <title>Poogle</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename = 'style.css')}}" />
+
+</head>
+
+<body>
+ 
+
+
+
+  <div style="display:flex; justify-content: center; font-weight: bold;">
+    <h1 style="color:yellow">P</h1><h1 style="color:lightgreen">0</h1><h1 style="color:lightblue;">O</h1><h1 style="color:orange">G</h1><h1 style="color:red">L</h1><h1>E</h1>
+  </div>
+
+  <div style="text-align:center; justify-content: center; font-weight: bold; color: white">
+    <form action="#" method="post">
+      <p>Search</p>
+      <p><input type="text" name="nm"></p>
+      <p><input type="submit" value="submit"></p>
+      <h2>{{ response }}</h2>
+    </form>
+  </div>
+
+
+
+</body>
+
+</html>
+
